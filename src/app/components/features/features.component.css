@@ -1,0 +1,31 @@
+#features {
+  padding: 2em;
+  text-align: center;
+}
+
+.feature-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #f0f0f0;
+  padding: 1em;
+  width: 30%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1em;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card img {
+  width: 100%;
+  height: 200px; /* กำหนดขนาดความสูงให้เท่ากัน */
+  object-fit: cover; /* ปรับขนาดรูปให้พอดีกับกรอบโดยไม่ผิดสัดส่วน */
+  display: block;
+  margin-bottom: 1em;
+}

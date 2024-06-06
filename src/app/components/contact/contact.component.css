@@ -1,0 +1,33 @@
+#contact {
+    padding: 2em;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  form div {
+    margin-bottom: 1em;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+  }
+  
+  button {
+    background-color: #ff6347;
+    border: none;
+    padding: 1em 2em;
+    color: white;
+    cursor: pointer;
+  }
+  

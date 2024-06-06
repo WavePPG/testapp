@@ -1,0 +1,22 @@
+.hero {
+  background-image: url('https://www.unileverfoodsolutions.co.th/dam/global-ufs/mcos/SEA/calcmenu/recipes/TH-recipes/salads/%E0%B8%A2%E0%B8%B3%E0%B9%80%E0%B8%AB%E0%B9%87%E0%B8%94%E0%B8%9F%E0%B8%B2%E0%B8%87/%E0%B8%A2%E0%B8%B3%E0%B9%80%E0%B8%AB%E0%B9%87%E0%B8%94%E0%B8%9F%E0%B8%B2%E0%B8%87_header.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+button {
+  background-color: #ff6347;
+  border: none;
+  padding: 1em 2em;
+  color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,14 @@
+#about-us {
+  padding: 2em;
+  text-align: center;
+  background-color: #fff;
+}
+
+#about-us img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  max-height: 400px; /* จำกัดความสูงสูงสุดของภาพ */
+  object-fit: cover; /* ปรับขนาดภาพให้พอดีกับกรอบโดยไม่ผิดสัดส่วน */
+}

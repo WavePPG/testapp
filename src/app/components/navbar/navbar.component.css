@@ -1,0 +1,41 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5em;
+  background-color: #ff6347;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.logo {
+  font-size: 1.5em; /* ขนาดของโลโก้ */
+  font-weight: bold; /* ความหนาของโลโก้ */
+  margin-left: 200px;
+  flex: 1; /* เพื่อให้โลโก้อยู่ตรงกลาง */
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex: 1;
+  justify-content: flex-end; /* จัดตำแหน่งลิงก์ให้อยู่ด้านขวา */
+}
+
+li {
+  margin-left: 1em;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em; /* ขนาดของข้อความในเมนู */
+  padding: 0.5em;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ffde59; /* เปลี่ยนสีข้อความเมื่อเมาส์ชี้ */
+}
